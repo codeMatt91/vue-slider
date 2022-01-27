@@ -60,7 +60,11 @@ const root = new Vue(
          prevImage() {
             this.currentIndex--;
          },
-         
+         onClick() {
+            if (this.currentIndex < this.images.length) {
+               this.currentIndex++;
+            };
+         }
          
       }
    }
