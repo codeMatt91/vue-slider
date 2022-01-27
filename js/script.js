@@ -53,7 +53,12 @@ const root = new Vue(
          ]
       },
       methods: {
-         
+         nextImage() {
+            this.currentIndex++;
+         },
+         prevImage() {
+            this.currentIndex--;
+         },
       }
    }
 );
