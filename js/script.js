@@ -32,6 +32,7 @@ const root = new Vue(
    {
       el: '#root',
       data: {
+         active: 'dot.active',
          currentIndex : 0,
          images: [
             {
@@ -59,6 +60,11 @@ const root = new Vue(
          prevImage() {
             this.currentIndex--;
          },
+         isActive() {
+            if (index == currentIndex) {
+               
+            }
+         }
       }
    }
 );
