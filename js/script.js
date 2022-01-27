@@ -60,11 +60,8 @@ const root = new Vue(
          prevImage() {
             this.currentIndex--;
          },
-         isActive() {
-            if (index == currentIndex) {
-               
-            }
-         }
+         
+         
       }
    }
 );

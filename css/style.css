@@ -29,4 +29,7 @@
 
 .slider-dots .dot.active {
   background-color: forestgreen;
+  height: 20px;
+  width: 35px;
+  border-radius: 100%;
 }
