@@ -32,24 +32,28 @@ const root = new Vue(
    {
       el: '#root',
       data: {
+         currentIndex : 0,
          images: [
             {
                url: 'images/image1.jpg',
-               number: 'image 1'
+               number: 'image'
             },
             {
                url: 'images/image2.jpg',
-               number: 'image 2'
+               number: 'image'
             },
             {
                url: 'images/image3.jpg',
-               number: 'image 3'
+               number: 'image'
             },
             {
                url: 'images/image4.jpg',
-               number: 'image 4'
+               number: 'image'
             }
          ]
+      },
+      methods: {
+         
       }
    }
 );
