@@ -31,11 +31,25 @@ Bonus:
 const root = new Vue(
    {
       el: '#root',
-      images: [
-         'images/image1.jpg',
-         'images/image2.jpg',
-         'images/image3.jpg',
-         'images/image4.jpg'
-      ]
+      data: {
+         images: [
+            {
+               url: 'images/image1.jpg',
+               number: 'image 1'
+            },
+            {
+               url: 'images/image2.jpg',
+               number: 'image 2'
+            },
+            {
+               url: 'images/image3.jpg',
+               number: 'image 3'
+            },
+            {
+               url: 'images/image4.jpg',
+               number: 'image 4'
+            }
+         ]
+      }
    }
 );
